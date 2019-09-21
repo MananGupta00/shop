@@ -1,0 +1,63 @@
+.title {
+			color:#ffffff;
+			background-color: #d1d1d1;
+		}
+
+body{
+		background-image: linear-gradient(to bottom,white,black);
+		}
+
+.panel {
+		display:flex;
+		flex-wrap: column;
+		justify-content: space-evenly;
+		}
+
+.paneldiv{		
+		right-margin: 20;
+		left-margin: 20;
+		padding:3%;	
+		background-image: linear-gradient(to top,#666666,#000000);	
+		}
+
+.paneldiv a{	//display:flex;
+		//flex-wrap:row;
+		
+		padding:1%;		
+		margin-right:10px;
+		margin-top:10px;
+		margin-bottom:10px;
+		}
+		
+.paneldiv a:link{
+		color: #555555;
+		background-color:#151515;
+		border: 2px solid #191919;
+		margin-top:10px;
+		margin-bottom:10px;
+		}
+
+.paneldiv a:visited{
+		color: #999999;
+		border: 2px solid #000000;
+		//margin-top:10px;
+		//margin-bottom:10px;
+		}
+.paneldiv a:hover{
+		
+		border: 2px solid #888888;
+		//margin-top:10px;
+		//margin-bottom:10px;
+		}
+
+.sell{
+		border: solid 2px #999999;
+		//background-image: linear-gradient(to bottom,#666666,#000000);
+		color: #f1f1f1;		
+		}
+
+.buy{
+		border: solid 2px #999999;
+		//background-image: linear-gradient(to top,#666666,#000000);
+		color:#f1f1f1;
+		}
